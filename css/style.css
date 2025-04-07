@@ -1,4 +1,36 @@
 
-body{
-background-color: gray;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* PROPIETA' HEADER*/
+
+header{
+background-color: #DADBDB;
+}
+
+.js-center{
+    justify-content: center;
+}
+
+.al-center{
+    align-items: center;
+}
+
+.titoli{
+    font-family: "Edu Tas Beginner", sans-serif;
+}
+
+#testa{
+   height: 145px;
+   font-size: 90px;
+   font-weight:800;
+}
+
+/* PROPIETA' RIUTILIZZABILI*/
+
+.d-flex{
+    display: flex;
 }
