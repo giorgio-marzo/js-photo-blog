@@ -111,3 +111,33 @@ padding-bottom: 15px;
 #date{
     font-family:"Sometype Mono", monospace;
 }
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1050px) {
+    
+    .colu-lg-3{
+        width: calc(100% / 2);
+        
+    }
+    
+    .main-container{
+        
+        max-width: calc((1000px / 3) * 2);
+    }
+    
+}
+
+@media screen and (max-width: 750px) {
+    
+    .colu-lg-3{
+        width: 100%;
+        
+    }
+    
+    .main-container{
+        
+        max-width: calc(1000px / 3);
+    }
+    
+}
