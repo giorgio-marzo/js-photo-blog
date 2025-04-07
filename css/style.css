@@ -69,6 +69,30 @@ main{
     transform: translate(-50%, -50%);
 }
 
+/* DENTRO POLAROID (CARD) */
+
+.fotografia{
+    width: 100%;
+    background-color: yellow;
+}
+
+.sfondo{
+    background-color: greenyellow;
+    height: 280px;
+    width: 280px;
+    margin: 20px 0;
+
+
+}
+
+.data{
+
+}
+
+
+.luogo{
+
+}
 
 /* PROPIETA' RIUTILIZZABILI*/
 
