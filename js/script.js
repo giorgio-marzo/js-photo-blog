@@ -21,10 +21,36 @@ axios.get(contenutoCard).then((card)=>{
 
     array.forEach((elementi) => {
         posNum = elementi
-        console.log(posNum)
         
+        //destrutturo array
+        const {id, title, date, url}= posNum
+        console.log(posNum)
 
+        //creo le col da appendere
+
+        colGen += `<div class="colu-lg-3" id="${id}">
+                    <div class="polaroid">
+                        <div class="margine">
+
+                            <div class="puntina">
+                                <img src="./img/pin.svg" alt="">
+                            </div>
+
+                                <div class="fotografia d-flex js-center" id="foto">
+                                    <img class="sfondo" src=${url} alt="">
+                                </div>
+                            <div class="data" id="date">${date}</div>
+                            <div class="luogo titoli " id="zona"><h2>${title.toUpperCase()}</h2></div>
+                            
+                        </div>
+                    </div>
+                </div>`
         
     });
+
+
+    riga.innerHTML = colGen
+
+
 }) 
 
