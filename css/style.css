@@ -8,7 +8,7 @@
 /* PROPIETA' HEADER*/
 
 header{
-background-color: #DADBDB;
+background-image: url(../img/wall.png);
 }
 
 .js-center{
@@ -27,6 +27,14 @@ background-color: #DADBDB;
    height: 145px;
    font-size: 90px;
    font-weight:800;
+}
+
+/* PROPIETA' MAIN */
+
+main{
+    background-image: url(../img/cork.png);
+    width: auto;
+    height: calc(100vh - 145px);
 }
 
 /* PROPIETA' RIUTILIZZABILI*/
