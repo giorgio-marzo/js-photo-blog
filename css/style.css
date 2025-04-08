@@ -112,6 +112,20 @@ padding-bottom: 15px;
     font-family:"Sometype Mono", monospace;
 }
 
+
+/* PROPIETA' HOVER */
+
+#hoverlay{
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    display: no;
+}
+
+
 /* MEDIA QUERY */
 
 @media screen and (max-width: 1050px) {
