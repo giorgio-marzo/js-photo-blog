@@ -11,14 +11,6 @@ header{
 background-image: url(../img/wall.png);
 }
 
-.js-center{
-    justify-content: center;
-}
-
-.al-center{
-    align-items: center;
-}
-
 
 #testa{
    height: 145px;
@@ -103,6 +95,15 @@ padding-bottom: 15px;
     display: flex;
 }
 
+
+.js-center{
+    justify-content: center;
+}
+
+.al-center{
+    align-items: center;
+}
+
 .titoli{
     font-family: "Edu Tas Beginner", sans-serif;
 }
@@ -113,18 +114,34 @@ padding-bottom: 15px;
 }
 
 
-/* PROPIETA' HOVER */
+/* PROPIETA' HOVERLAY */
 
 #hoverlay{
-    background-color: black;
-    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
     position: fixed;
     z-index: 2;
-    display: no;
+    
 }
 
+button{
+    font-size: 30px;
+    padding: 5px 10px;
+}
+
+.foto-hoverlay{
+    height: 600px;
+    width: 600px;
+    
+}
+
+.sezionata{
+    height: 100%;
+    width: 100%;
+}
+
+/******************************************************************************************/
 
 /* MEDIA QUERY */
 
