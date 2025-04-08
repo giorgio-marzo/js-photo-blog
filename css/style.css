@@ -113,6 +113,9 @@ padding-bottom: 15px;
     font-family:"Sometype Mono", monospace;
 }
 
+.flex-column{
+    flex-direction: column;
+}
 
 /* PROPIETA' HOVERLAY */
 
@@ -125,9 +128,14 @@ padding-bottom: 15px;
     
 }
 
+.row-foto{
+    height: 100%;
+}
+
 button{
     font-size: 30px;
     padding: 5px 10px;
+    margin-bottom: 70px;
 }
 
 .foto-hoverlay{
