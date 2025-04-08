@@ -1,11 +1,15 @@
 
 //RECUPERO ELEMENTI NEL DOM
 
-const pos = document.getElementById(`num`)
+/*const pos = document.getElementById(`num`)
 const foto = document.getElementById(`foto`)
 const data = document.getElementById(`date`)
-const luogo = document.getElementById(`zona`)
+const luogo = document.getElementById(`zona`)*/
 const riga = document.querySelector(`.row`) 
+const hoverlay = document.getElementById(`hoverlay`)
+const chiudi = document.getElementById(`bottone`)
+const card = document.querySelectorAll(`polaroid`)
+
 
 //DICHIARO VARIABILE VUOTA DOVE INSERIRE SUCCESIVAMENTE HTML
 let colGen = '';
@@ -50,6 +54,16 @@ axios.get(contenutoCard).then((card)=>{
 
 
     riga.innerHTML = colGen
+
+
+
+    chiudi.addEventListener(`click`, function(){
+
+        hoverlay.classList.add(`d-none`)   
+    
+    
+    })
+
 
 
 }) 
