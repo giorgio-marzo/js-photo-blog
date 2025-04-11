@@ -68,7 +68,7 @@ axios.get(contenutoCard).then((card)=>{ //INZIO FUNZIONE CHE CONTIENE TUTTO PROG
     
 
     // definisco variabile (dentro axios) che prende nel tutti gli elementi con "polaroid"
-    const polaroid = document.querySelectorAll(`.pol aroid`)
+    const polaroid = document.querySelectorAll(`.polaroid`)
 
     console.log(polaroid)
    
